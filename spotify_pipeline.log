@@ -1,0 +1,34 @@
+2025-04-25 21:33:59,154 - INFO - Starting Spotify Redis Analytics pipeline...
+2025-04-25 21:33:59,154 - INFO - Connecting to Redis...
+2025-04-25 21:34:01,227 - INFO - Connected to Redis.
+2025-04-25 21:36:29,807 - INFO - Generating gold layer data...
+2025-04-25 21:36:37,427 - INFO - artist_popularity: generated with shape (31491, 10)
+2025-04-25 21:36:37,428 - INFO - year_trends: generated with shape (1, 9)
+2025-04-25 21:36:37,428 - INFO - audio_clusters: generated with shape N/A
+2025-04-25 21:36:37,428 - INFO - popularity_segments: generated with shape (5, 8)
+2025-04-25 21:36:37,428 - INFO - track_recommendations: generated with shape N/A
+2025-04-25 21:36:37,429 - INFO - Saving gold data...
+2025-04-25 21:36:38,596 - INFO - Ingesting gold data into Redis...
+2025-04-25 21:37:00,940 - INFO - Generating visualizations...
+2025-04-25 21:38:57,441 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 21:38:57,563 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 21:41:00,679 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 21:41:00,716 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 21:41:01,886 - INFO - Running ML models...
+2025-04-25 21:49:18,267 - INFO - ML Model Results:
+2025-04-25 21:49:18,268 - INFO - Clustering - Samples: 89741, Silhouette: 0.18
+2025-04-25 21:49:18,268 - INFO - Popularity Prediction - R²: 0.25, MSE: 317.37
+2025-04-25 21:49:18,269 - INFO - 
+==================================================
+2025-04-25 21:49:18,269 - INFO - Redis Summary
+2025-04-25 21:49:18,270 - INFO - ==================================================
+2025-04-25 21:49:23,322 - INFO - connected: True
+2025-04-25 21:49:23,322 - INFO - bronze_keys: 300730
+2025-04-25 21:49:23,323 - INFO - silver_keys: 89741
+2025-04-25 21:49:23,323 - INFO - gold_keys: 121248
+2025-04-25 21:49:23,324 - INFO - model_keys: 0
+2025-04-25 21:49:23,324 - INFO - total_keys: 300730
+2025-04-25 21:49:23,324 - INFO - memory_used_human: 160.90M
+2025-04-25 21:49:23,325 - INFO - redis_version: 7.4.2
+2025-04-25 21:49:23,325 - INFO - uptime_days: 0
+2025-04-25 21:49:23,325 - INFO - Pipeline finished in 924.17 seconds

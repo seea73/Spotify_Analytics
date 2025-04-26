@@ -1,0 +1,130 @@
+Downloading dataset maharshipandya/-spotify-tracks-dataset...
+Dataset URL: https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
+Dataset URL: https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
+Files in C:\Users\ASUS\Desktop\spotify-redis-analytics\data\bronze: ['dataset.csv']
+Found CSV file: C:\Users\ASUS\Desktop\spotify-redis-analytics\data\bronze\dataset.csv
+Connected to Redis server successfully.
+Dataset columns: ['Unnamed: 0', 'track_id', 'artists', 'album_name', 'track_name', 'popularity', 'duration_ms', 'explicit', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'time_signature', 'track_genre']
+Clearing 46030 existing keys...
+Ingesting 114000 records into Redis...
+Successfully ingested 89741 records into Redis.
+Found 89741 records in Redis with prefix 'spotify:'.
+
+Sample data from Redis:
+Sample 1:
+{
+  "Unnamed: 0": 39198,
+  "track_id": "2XB7HlnIbMafSQuRRq7lm4",
+  "artists": "Johannes Brahms;Mischa Maisky;Pavel Gililov",
+  "album_name": "Cl\u00e1sica para los ni\u00f1os de hoy",
+  "track_name": "Wiegenlied, Op. 49, No. 4",
+  "popularity": 0,
+  "duration_ms": 146773,
+  "explicit": false,
+  "danceability": 0.0827,
+  "energy": 0.0134,
+  "key": 5,
+  "loudness": -31.089,
+  "mode": 1,
+  "speechiness": 0.052,
+  "acousticness": 0.992,
+  "instrumentalness": 0.961,
+  "liveness": 0.066,
+  "valence": ...
+
+Sample 2:
+{
+  "Unnamed: 0": 54386,
+  "track_id": "0GeAQxvo05osGBG1SGURLW",
+  "artists": "Melorman",
+  "album_name": "Far Away Morning",
+  "track_name": "Laying on a Tree (Extended Version)",
+  "popularity": 12,
+  "duration_ms": 196000,
+  "explicit": false,
+  "danceability": 0.496,
+  "energy": 0.404,
+  "key": 11,
+  "loudness": -9.096,
+  "mode": 0,
+  "speechiness": 0.143,
+  "acousticness": 0.319,
+  "instrumentalness": 0.16,
+  "liveness": 0.109,
+  "valence": 0.066,
+  "tempo": 179.979,
+  "time_signature": 4,
+...
+
+Sample 3:
+{
+  "Unnamed: 0": 100107,
+  "track_id": "6JCO6XWIAWAQcG2UG7pZAG",
+  "artists": "Chancho En Piedra",
+  "album_name": "Funkybar\u00edtico Hed\u00f3nico Fant\u00e1stico",
+  "track_name": "Tren a la Luna",
+  "popularity": 43,
+  "duration_ms": 226445,
+  "explicit": false,
+  "danceability": 0.65,
+  "energy": 0.852,
+  "key": 1,
+  "loudness": -7.348,
+  "mode": 0,
+  "speechiness": 0.0844,
+  "acousticness": 0.0163,
+  "instrumentalness": 0.0101,
+  "liveness": 0.28,
+  "valence": 0.903,
+  "tempo": 119.996,
+ ...
+
+Sample 4:
+{
+  "Unnamed: 0": 51992,
+  "track_id": "1J1xKGIgm2PsRzd7DMpvcv",
+  "artists": "Moneybagg Yo",
+  "album_name": "Best Hip Hop Tunes",
+  "track_name": "Least Ian Lie",
+  "popularity": 0,
+  "duration_ms": 106379,
+  "explicit": true,
+  "danceability": 0.896,
+  "energy": 0.517,
+  "key": 6,
+  "loudness": -7.834,
+  "mode": 0,
+  "speechiness": 0.389,
+  "acousticness": 0.112,
+  "instrumentalness": 0.0,
+  "liveness": 0.117,
+  "valence": 0.816,
+  "tempo": 135.917,
+  "time_signature": 4,
+  "track_genre": "hi...
+
+Sample 5:
+{
+  "Unnamed: 0": 15359,
+  "track_id": "2Ryp5LkAWyJwRqoFd8N7Kk",
+  "artists": "brb.",
+  "album_name": "move",
+  "track_name": "move",
+  "popularity": 62,
+  "duration_ms": 148571,
+  "explicit": false,
+  "danceability": 0.661,
+  "energy": 0.633,
+  "key": 5,
+  "loudness": -8.819,
+  "mode": 0,
+  "speechiness": 0.052,
+  "acousticness": 0.0227,
+  "instrumentalness": 9.86e-05,
+  "liveness": 0.104,
+  "valence": 0.782,
+  "tempo": 104.934,
+  "time_signature": 4,
+  "track_genre": "chill"
+}...
+
